@@ -9,9 +9,9 @@
                 <div class="row">
                     <div class="col col-md-10 col-md-offset-1 slide-caption">
                         <span class="trending"><i class="fa fa-bolt" aria-hidden="true"></i> Trending</span>
-                        <h1 class="slide-title">Construction Begins on New Huntington Beach Power Station</h1>
-                        <h5 class="slide-subtitle">Industry Segment: Power | 2 min read</h5>
-                        <a href="#" class="theme-btn-s1">Read Article</a>
+                        <h1 class="slide-title">BARATALA Mulai Tahap Eksplorasi Bijih Besi di Tanah Laut</h1>
+                        <h5 class="slide-subtitle">Segmen: Mining | 2 menit baca</h5>
+                        <a href="#" class="theme-btn-s1">Baca Artikel</a>
                     </div>
                 </div>
             </div>
@@ -22,10 +22,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col col-md-10 col-md-offset-1 slide-caption">
-                        <span class="trending"><i class="fa fa-bolt" aria-hidden="true"></i> Trending</span>
-                        <h1 class="slide-title">Construction Begins on New Huntington Beach Power Station</h1>
-                        <h5 class="slide-subtitle">Industry Segment: Power | 2 min read</h5>
-                        <a href="#" class="theme-btn-s1">Read Article</a>
+                        <span class="trending"><i class="fa fa-bolt" aria-hidden="true"></i> Update</span>
+                        <h1 class="slide-title">Fasilitas Crushing & Screening 600 TPH Siap Beroperasi</h1>
+                        <h5 class="slide-subtitle">Operasi: Processing | 3 menit baca</h5>
+                        <a href="#" class="theme-btn-s1">Pelajari</a>
                     </div>
                 </div>
             </div>
@@ -36,10 +36,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col col-md-10 col-md-offset-1 slide-caption">
-                        <span class="trending"><i class="fa fa-bolt" aria-hidden="true"></i> Trending</span>
-                        <h1 class="slide-title">Construction Begins on New Huntington Beach Power Station</h1>
-                        <h5 class="slide-subtitle">Industry Segment: Power | 2 min read</h5>
-                        <a href="#" class="theme-btn-s1">Read Article</a>
+                        <span class="trending"><i class="fa fa-bolt" aria-hidden="true"></i> Logistik</span>
+                        <h1 class="slide-title">Kontrak Hauling Koridor Tanah Laut – Pelabuhan</h1>
+                        <h5 class="slide-subtitle">Segmen: Hauling & Shipping | 2 menit baca</h5>
+                        <a href="#" class="theme-btn-s1">Detail</a>
                     </div>
                 </div>
             </div>
@@ -49,22 +49,21 @@
 <!-- end of hero slider -->
 
 
-<!-- start of about-us --> 
 <section class="about-us section-padding">
     <div class="container">
         <div class="row">
             <div class="col col-md-6">
                 <div class="section-title-s1">
-                    <span>About us</span>
-                    <h2>Get full range of <span>premium Industrial</span> services for your business</h2>
+                    <span>Tentang BARATALA</span>
+                    <h2>Mitra <span>pertambangan bijih besi</span> berkelanjutan di Tanah Laut</h2>
                 </div>
                 <div class="about-details">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <p>BARATALA berfokus pada eksplorasi, penambangan, dan pengolahan bijih besi di Tanah Laut, Kalimantan Selatan. Dengan tim ahli geologi dan operasional berpengalaman, kami mengintegrasikan keselamatan kerja (K3), efisiensi produksi, dan kepatuhan lingkungan untuk menghadirkan pasokan Fe yang andal bagi industri baja dalam negeri.</p>
                     <ul>
-                        <li>Duis aute irure dolor</li>
-                        <li>In reprehenderit in voluptate velit esse</li>
-                        <li>Cillum dolore eu fugiat nulla pariatur</li>
-                        <li>Excepteur sint occaecat cupidatat</li>
+                        <li>Eksplorasi terukur: pemetaan, pengeboran inti, dan estimasi sumber daya</li>
+                        <li>Operasi tambang efisien: drill & blast, load & haul, dan pengelolaan overburden</li>
+                        <li>Pengolahan berkualitas: crushing–screening untuk kadar Fe yang stabil</li>
+                        <li>Komitmen K3L & pemberdayaan tenaga kerja lokal Tanah Laut</li>
                     </ul>
                 </div>
             </div>
@@ -78,7 +77,7 @@
         </div> <!-- end row -->
     </div> <!-- end container -->
 </section>
-<!-- end of about-us -->
+
 
 
 <!-- start of services-section --> 
@@ -86,10 +85,10 @@
     <div class="container">        
         <div class="row section-title-s2">
             <div class="col col-lg-3">
-                <h2><span>Services</span> We Provide</h2>
+                <h2><span>Layanan</span> BARATALA</h2>
             </div>
             <div class="col col-lg-7">
-                <p>Mauris ornare tellus et cursus volutpat. Praesent neque justo, dapibus id vestibulum nec, accumsan vitae sapien. Curabitur tempus tortor sit amet sapien venenatis, vitae blandit diam pharetra. Donec vel diam id nisl feugiat fringilla.</p>
+                <p>Kami menyediakan layanan end-to-end rantai nilai bijih besi—mulai dari eksplorasi hingga pengapalan. Fokus kami pada keandalan kualitas, keselamatan, dan kepatuhan memastikan kontinuitas pasokan untuk mitra industri.</p>
             </div>
         </div> <!-- end row -->
 
@@ -101,8 +100,8 @@
                     </div>
                     <span class="icon"><i class="fi flaticon-construction"></i></span>
                     <div class="service-details">
-                        <h3><a href="#">Iron Welding</a></h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                        <h3><a href="#">Eksplorasi & Studi Geologi</a></h3>
+                        <p>Pemetaan geologi, sampling, dan pengeboran inti untuk definisi sumber daya yang akurat.</p>
                     </div>
                 </div>
             </div>
@@ -113,8 +112,8 @@
                     </div>
                     <span class="icon"><i class="fi flaticon-construction"></i></span>
                     <div class="service-details">
-                        <h3><a href="#">Petrolium Refinery</a></h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                        <h3><a href="#">Pembukaan Lahan & Overburden</a></h3>
+                        <p>Pengelolaan OB yang terencana untuk mengoptimalkan siklus penambangan dan biaya.</p>
                     </div>
                 </div>
             </div>
@@ -125,8 +124,8 @@
                     </div>
                     <span class="icon"><i class="fi flaticon-construction"></i></span>
                     <div class="service-details">
-                        <h3><a href="#">Oil Plantation</a></h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                        <h3><a href="#">Penambangan (Drill & Blast)</a></h3>
+                        <p>Operasi drill, peledakan, pemuatan, dan pengangkutan dengan standar K3 tinggi.</p>
                     </div>
                 </div>
             </div>
@@ -137,8 +136,8 @@
                     </div>
                     <span class="icon"><i class="fi flaticon-construction"></i></span>
                     <div class="service-details">
-                        <h3><a href="#">Petrochemical Lab</a></h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                        <h3><a href="#">Crushing & Screening</a></h3>
+                        <p>Pengolahan ukuran dan peningkatan konsistensi kadar Fe sesuai spesifikasi pabrik baja.</p>
                     </div>
                 </div>
             </div>
@@ -149,8 +148,8 @@
                     </div>
                     <span class="icon"><i class="fi flaticon-construction"></i></span>
                     <div class="service-details">
-                        <h3><a href="#">Bridge Construction</a></h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                        <h3><a href="#">Hauling & Logistik</a></h3>
+                        <p>Transportasi tambang–stockpile–pelabuhan yang efisien dan tepat waktu.</p>
                     </div>
                 </div>
             </div>
@@ -161,8 +160,8 @@
                     </div>
                     <span class="icon"><i class="fi flaticon-construction"></i></span>
                     <div class="service-details">
-                        <h3><a href="#">Industrial Automation</a></h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                        <h3><a href="#">Reklamasi & K3L</a></h3>
+                        <p>Praktik lingkungan dan keselamatan kerja untuk operasi tambang yang berkelanjutan.</p>
                     </div>
                 </div>
             </div>
@@ -177,8 +176,8 @@
     <div class="container">
         <div class="row section-title-s3">
             <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h2>What Our <span>Customers</span> Say</h2>
-                <p>Mauris ornare tellus et cursus volutpat. Praesent neque justo, dapibus id vestibulum nec, accumsan vitae sapien. Curabitur tempus tortor sit amet sapien.</p>
+                <h2>Apa Kata <span>Mitra</span> Kami</h2>
+                <p>Mitra industri menilai BARATALA sebagai partner andal berkat kualitas konsisten, respon cepat, dan komitmen keselamatan kerja.</p>
             </div>
         </div> <!-- end section-title -->
 
@@ -187,7 +186,7 @@
                 <div class="testimonials-slider dots-style-1">
                     <div class="grid">
                         <div class="client-quote">
-                            <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                            <p>Kualitas Fe stabil dan pengiriman tepat waktu membuat lini produksi kami berjalan lebih efisien.</p>
                         </div>
                         <div class="client-info">
                             <div class="client-pic">
@@ -195,13 +194,13 @@
                             </div>
                             <div class="client-details">
                                 <h4>Marcus Finn</h4>
-                                <span>CEO, Axura</span>
+                                <span>CEO, Axura Steel</span>
                             </div>
                         </div>
                     </div>
                     <div class="grid">
                         <div class="client-quote">
-                            <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                            <p>Komunikasi operasional yang transparan dan patuh K3L—BARATALA adalah mitra jangka panjang kami.</p>
                         </div>
                         <div class="client-info">
                             <div class="client-pic">
@@ -209,13 +208,13 @@
                             </div>
                             <div class="client-details">
                                 <h4>Marcus Finn</h4>
-                                <span>CEO, Axura</span>
+                                <span>CEO, Axura Steel</span>
                             </div>
                         </div>
                     </div>
                     <div class="grid">
                         <div class="client-quote">
-                            <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                            <p>Supply chain dari pit ke pelabuhan tertata rapi sehingga variabilitas pasokan berkurang signifikan.</p>
                         </div>
                         <div class="client-info">
                             <div class="client-pic">
@@ -223,7 +222,7 @@
                             </div>
                             <div class="client-details">
                                 <h4>Marcus Finn</h4>
-                                <span>CEO, Axura</span>
+                                <span>CEO, Axura Steel</span>
                             </div>
                         </div>
                     </div>
@@ -240,23 +239,24 @@
     <div class="container">
         <div class="row section-title-s3">
             <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h2>Our latest <span>Projects</span></h2>
-                <p>Mauris ornare tellus et cursus volutpat. Praesent neque justo, dapibus id vestibulum nec, accumsan vitae sapien. Curabitur tempus tortor sit amet sapien.</p>
+                <h2>Proyek <span>Terbaru</span> Kami</h2>
+                <p>Rangkaian aktivitas BARATALA di Tanah Laut—dari eksplorasi hingga pengolahan—untuk menghadirkan pasokan bijih besi yang berkelanjutan.</p>
             </div>
         </div> <!-- end section-title -->
 
         <div class="portfolio gallery-grid">
             <div class="row">
                 <ul class="portfolio-sorting gallery-button list-inline text-center">
-                    <li><a href="#" data-group="all" class="filter-btn active">All</a></li>
-                    <li><a class="filter-btn" href="#" data-group="people">Factory</a></li>
-                    <li><a class="filter-btn" href="#" data-group="simpsons">Welding</a></li>
-                    <li><a class="filter-btn" href="#" data-group="futurama">Rolling</a></li>
+                    <li><a href="#" data-group="all" class="filter-btn active">Semua</a></li>
+                    <li><a class="filter-btn" href="#" data-group="exploration">Eksplorasi</a></li>
+                    <li><a class="filter-btn" href="#" data-group="mining">Penambangan</a></li>
+                    <li><a class="filter-btn" href="#" data-group="processing">Pengolahan</a></li>
+                    <li><a class="filter-btn" href="#" data-group="logistics">Logistik</a></li>
                 </ul> <!--end portfolio sorting -->
 
                 <div id="lightBox" class="gallery-wrapper">
                     <ul class="portfolio-items courses list-unstyled" id="grid">
-                        <li class="col-md-3 col-sm-6" data-groups='["simpsons"]'>
+                        <li class="col-md-3 col-sm-6" data-groups='["exploration"]'>
                             <figure class="portfolio-item gallery-caption grid">
                                 <div class="inner">
                                     <a href="{{ asset('assets/images/latest-projects/img-1.jpg') }}" class="fancybox">
@@ -264,12 +264,12 @@
                                     </a>
                                 </div>
                                 <div class="project-title">
-                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                    <h3><a href="#">Survei Geofisika Tanah Laut</a></h3>
                                 </div>
                             </figure>
                         </li>
 
-                        <li class="col-md-3 col-sm-6" data-groups='["people"]'>
+                        <li class="col-md-3 col-sm-6" data-groups='["exploration"]'>
                             <figure class="portfolio-item gallery-caption grid">
                                 <div class="inner">
                                     <a href="{{ asset('assets/images/latest-projects/img-2.jpg') }}" class="fancybox">
@@ -277,12 +277,12 @@
                                     </a>
                                 </div>
                                 <div class="project-title">
-                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                    <h3><a href="#">Pengeboran Inti & Sampling Fe</a></h3>
                                 </div>
                             </figure>
                         </li>
 
-                        <li class="col-md-3 col-sm-6" data-groups='["futurama"]'>
+                        <li class="col-md-3 col-sm-6" data-groups='["mining"]'>
                             <figure class="portfolio-item gallery-caption grid">
                                 <div class="inner">
                                     <a href="{{ asset('assets/images/latest-projects/img-3.jpg') }}" class="fancybox">
@@ -290,12 +290,12 @@
                                     </a>
                                 </div>
                                 <div class="project-title">
-                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                    <h3><a href="#">Operasi Drill & Blast</a></h3>
                                 </div>
                             </figure>
                         </li>
 
-                        <li class="col-md-3 col-sm-6" data-groups='["futurama"]'>
+                        <li class="col-md-3 col-sm-6" data-groups='["mining"]'>
                             <figure class="portfolio-item gallery-caption grid">
                                 <div class="inner">
                                     <a href="{{ asset('assets/images/latest-projects/img-4.jpg') }}" class="fancybox">
@@ -303,12 +303,12 @@
                                     </a>
                                 </div>
                                 <div class="project-title">
-                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                    <h3><a href="#">Load & Haul ke Stockpile</a></h3>
                                 </div>
                             </figure>
                         </li>
 
-                        <li class="col-md-3 col-sm-6" data-groups='["simpsons"]'>
+                        <li class="col-md-3 col-sm-6" data-groups='["processing"]'>
                             <figure class="portfolio-item gallery-caption grid">
                                 <div class="inner">
                                     <a href="{{ asset('assets/images/latest-projects/img-5.jpg') }}" class="fancybox">
@@ -316,12 +316,12 @@
                                     </a>
                                 </div>
                                 <div class="project-title">
-                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                    <h3><a href="#">Crushing & Screening 600 TPH</a></h3>
                                 </div>
                             </figure>
                         </li>
 
-                        <li class="col-md-3 col-sm-6" data-groups='["people"]'>
+                        <li class="col-md-3 col-sm-6" data-groups='["processing"]'>
                             <figure class="portfolio-item gallery-caption grid">
                                 <div class="inner">
                                     <a href="{{ asset('assets/images/latest-projects/img-6.jpg') }}" class="fancybox">
@@ -329,12 +329,12 @@
                                     </a>
                                 </div>
                                 <div class="project-title">
-                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                    <h3><a href="#">Quality Control Kadar Fe</a></h3>
                                 </div>
                             </figure>
                         </li>
 
-                        <li class="col-md-3 col-sm-6" data-groups='["simpsons"]'>
+                        <li class="col-md-3 col-sm-6" data-groups='["logistics"]'>
                             <figure class="portfolio-item gallery-caption grid">
                                 <div class="inner">
                                     <a href="{{ asset('assets/images/latest-projects/img-7.jpg') }}" class="fancybox">
@@ -342,12 +342,12 @@
                                     </a>
                                 </div>
                                 <div class="project-title">
-                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                    <h3><a href="#">Hauling ke Pelabuhan</a></h3>
                                 </div>
                             </figure>
                         </li>
 
-                        <li class="col-md-3 col-sm-6" data-groups='["people"]'>
+                        <li class="col-md-3 col-sm-6" data-groups='["logistics"]'>
                             <figure class="portfolio-item gallery-caption grid">
                                 <div class="inner">
                                     <a href="{{ asset('assets/images/latest-projects/img-8.jpg') }}" class="fancybox">
@@ -355,7 +355,7 @@
                                     </a>
                                 </div>
                                 <div class="project-title">
-                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                    <h3><a href="#">Pengapalan & Dokumentasi</a></h3>
                                 </div>
                             </figure>
                         </li>
@@ -373,30 +373,30 @@
     <div class="container">
         <div class="row section-title-s4">
             <div class="col col-xs-12">
-                <h2>Some facts in <span>Numbers</span></h2>
+                <h2>Fakta BARATALA dalam <span>Angka</span></h2>
             </div>
         </div> <!-- end section-title -->
 
         <div class="row start-count">
             <div class="col col-sm-4">
                 <div class="grid">
-                    <h4><span  class="counter" data-count="1200">00</span><span>+</span></h4>
-                    <h3>Projects</h3>
-                    <p>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam</p>
+                    <h4><span class="counter" data-count="1200">00</span><span>+</span></h4>
+                    <h3>Kumulatif Pengiriman (kt)</h3>
+                    <p>Pengiriman bijih besi ke mitra industri secara berkelanjutan.</p>
                 </div>
             </div>
             <div class="col col-sm-4">
                 <div class="grid">
-                    <h4><span  class="counter" data-count="800">00</span><span>+</span></h4>
-                    <h3>Clients</h3>
-                    <p>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam</p>
+                    <h4><span class="counter" data-count="800">00</span><span>+</span></h4>
+                    <h3>Tenaga Kerja Lokal</h3>
+                    <p>Pemberdayaan SDM Tanah Laut sebagai prioritas operasional kami.</p>
                 </div>
             </div>
             <div class="col col-sm-4">
                 <div class="grid">
-                    <h4><span  class="counter" data-count="99">00</span><span>%</span></h4>
-                    <h3>Satisfaction</h3>
-                    <p>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam</p>
+                    <h4><span class="counter" data-count="99">00</span><span>%</span></h4>
+                    <h3>Kepuasan Mitra</h3>
+                    <p>Konsistensi kualitas, keselamatan, dan layanan yang responsif.</p>
                 </div>
             </div>
         </div> <!-- end row -->
@@ -411,50 +411,50 @@
         <div class="row">
             <div class="col col-lg-5">
                 <div class="section-title-s5">
-                    <h2>Frequently Asked <span>Question</span></h2>
+                    <h2>Pertanyaan yang <span>Sering Diajukan</span></h2>
                 </div>
                 <div class="panel-group faq-accordion theme-accordion" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">Ipsam voluptatem quia voluptas sit</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">Bagaimana BARATALA memastikan kepatuhan AMDAL?</a>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 <div class="img-holder">
                                     <img src="{{ asset('assets/images/faq/img-1.jpg') }}" alt class="img img-responsive">
                                 </div>
-                                <p>Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                <a href="#" class="read-more">Read More..</a>
+                                <p>Kami menerapkan pemantauan lingkungan berkala, pengelolaan air & sedimen, serta reklamasi progresif sesuai regulasi.</p>
+                                <a href="#" class="read-more">Baca selengkapnya</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Ted quia non numquam eius modi</a>
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Seperti apa spesifikasi produk bijih besi BARATALA?</a>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div class="img-holder">
                                     <img src="{{ asset('assets/images/faq/img-1.jpg') }}" alt class="img img-responsive">
                                 </div>
-                                <p>Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                <a href="#" class="read-more">Read More..</a>
+                                <p>Kami menyediakan rentang ukuran dan kadar Fe yang disesuaikan dengan kebutuhan pabrik baja mitra.</p>
+                                <a href="#" class="read-more">Baca selengkapnya</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Tempora incidunt ut labore</a>
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Bagaimana jaminan keselamatan kerja di area tambang?</a>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div class="img-holder">
                                     <img src="{{ asset('assets/images/faq/img-1.jpg') }}" alt class="img img-responsive">
                                 </div>
-                                <p>Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                <a href="#" class="read-more">Read More..</a>
+                                <p>Standar K3 diterapkan ketat: pelatihan rutin, inspeksi alat, dan budaya pelaporan insiden tanpa sanksi.</p>
+                                <a href="#" class="read-more">Baca selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -463,7 +463,7 @@
 
             <div class="col col-lg-7 blog-col">
                 <div class="section-title-s5">
-                    <h2>Some of our <span>Articles</span></h2>
+                    <h2>Artikel <span>BARATALA</span></h2>
                 </div>
 
                 <div class="blog">
@@ -472,8 +472,8 @@
                             <img src="{{ asset('assets/images/blog/img-1.jpg') }}" alt class="img img-responsive">
                         </div>
                         <div class="entry-body">
-                            <h3><a href="#">Approach to Assessing Supply Chain Risk</a></h3>
-                            <a href="#" class="read-more">Read More</a>
+                            <h3><a href="#">Optimasi Recovery Fe untuk Pasokan Stabil</a></h3>
+                            <a href="#" class="read-more">Baca</a>
                         </div>
                     </div>
                     <div class="grid">
@@ -481,8 +481,8 @@
                             <img src="{{ asset('assets/images/blog/img-2.jpg') }}" alt class="img img-responsive">
                         </div>
                         <div class="entry-body">
-                            <h3><a href="#">Approach to Assessing Supply Chain Risk</a></h3>
-                            <a href="#" class="read-more">Read More</a>
+                            <h3><a href="#">Rantai Suplai Berkelanjutan dari Tanah Laut</a></h3>
+                            <a href="#" class="read-more">Baca</a>
                         </div>
                     </div>
                 </div>
@@ -495,7 +495,7 @@
 
 <!-- start of partners-section --> 
 <section class="partners-section">
-    <h2 class="hidden">Partenrs</h2>
+    <h2 class="hidden">Mitra</h2>
     <div class="container">
         <div class="row">
             <div class="col col-xs-12">
@@ -524,45 +524,5 @@
     </div> <!-- end container -->
 </section>
 <!-- end of partners-section -->
-
-
-<!-- start of contact-section --> 
-<section class="contact-section">
-    <div class="contact-map" id="map"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6">
-                <div class="contact-form">
-                    <h3>Contact Form</h3>
-                    <ul>
-                        <li><i class="fa fa-home"></i>M C T A Dr, Swiftwater, PA 18370</li>
-                        <li><i class="fa fa-phone"></i>+1 570-839-1300</li>
-                    </ul>
-                    <h4>Send Email</h4>
-                    <form class="form contact-validation-active" id="contact-form">
-                        <div>
-                            <input type="text" name="name" class="form-control" placeholder="Full Name">
-                        </div>
-                        <div>
-                            <input type="email" name="email" class="form-control" placeholder="Email">
-                        </div>
-                        <div>
-                            <textarea name="note" class="form-control" placeholder="Message"></textarea>
-                        </div>
-                        <div class="submit">
-                            <button type="submit">Send</button>
-                            <span id="loader"><img src="{{ asset('assets/images/contact-ajax-loader.gif') }}" alt="Loader"></span>
-                        </div>
-                        <div class="error-handling-messages">
-                            <div id="success">Thank you</div>
-                            <div id="error"> Error occurred while sending email. Please try again later. </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div> <!-- end row -->
-    </div> <!-- end container -->
-</section>
-<!-- end of contact-section -->
 
 @endsection

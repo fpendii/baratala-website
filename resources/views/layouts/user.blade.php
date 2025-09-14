@@ -8,7 +8,7 @@
     <meta name="author" content="themexriver">
 
     <!-- Page Title -->
-    <title>Industry, Factory and Engineering HTML5 Template</title>
+    <title>Baratala</title>
 
     <!-- Favicon and Touch Icons -->
     <link href="{{ asset('assets/images/favicon/favicon.png') }}" rel="shortcut icon" type="image/png">
@@ -29,7 +29,7 @@
     <link href="{{ asset('assets/css/owl.carousel.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/owl.theme.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/slick.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/slick-theme.css') }}" rel="stylesheet>
+    <link href="{{ asset('assets/css/slick-theme.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/owl.transitions.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/jquery.fancybox.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/bootstrap-select.min.css') }}" rel="stylesheet">
@@ -64,8 +64,8 @@
                 <div class="row">
                     <div class="col col-sm-6 contact-info">
                         <ul>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> mail@solid-industry.co.uk</li>
-                            <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +012 (3456) 88 974</li>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> baratala@gmai.com</li>
+                            <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +62 852 5180 1111</li>
                         </ul>
                     </div>
                     <div class="col col-sm-6 language-login-wrapper">
@@ -75,13 +75,12 @@
                                 <form>
                                     <select class="selectpicker">
                                         <option>ENG</option>
-                                        <option>TUK</option>
-                                        <option>SPH</option>
+                                        <option>IND</option>
                                     </select>
                                 </form>
                             </div>
                             <div class="client-login">
-                                <a href="#" id="client-login-btn"><i class="fa fa-key" aria-hidden="true"></i> Client Login</a>
+                                <a href="#" id="client-login-btn"><i class="fa fa-key" aria-hidden="true"></i> Login</a>
                             </div>
                         </div>
                     </div>
@@ -99,58 +98,27 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo">
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" style="width: 70px; height: auto;">
                     </a>
                 </div>
+                <div class="navbar-header">
+                    <h1 class="text-white" style="color:#fff">BARATALA</h1>
+                </div>
+                
 
                 <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                     <button class="close-navbar"><i class="fa fa-close"></i></button>
                     <ul class="nav navbar-nav">
-                        <li class="menu-item-has-children current-menu-ancestor current-menu-parent">
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li class="current-menu-item"><a href="{{ url('/') }}">Home style 1</a></li>
-                                <li><a href="{{ url('/index-3') }}">Home style 2</a></li>
-                                <li><a href="{{ url('/index-4') }}">Home style 3</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="{{ url('/about') }}">About</a></li>
+                        <li><a href="{{ url('/') }}">Beranda</a></li>
+                        <li><a href="{{ url('/tentang') }}">Tentang</a></li>
                         <li class="menu-item-has-children">
-                            <a href="#">Projects</a>
+                            <a href="">Kegiatan</a>
                             <ul class="sub-menu">
-                                <li><a href="{{ url('/projects-s1') }}">Projects style 1</a></li>
-                                <li><a href="{{ url('/projects-s2') }}">Projects style 2</a></li>
-                                <li><a href="{{ url('/projects-s3') }}">Projects style 3</a></li>
+                                <li><a href="{{ url('/galeri') }}">Galeri</a></li>
+                                <li><a href="{{ url('/berita') }}">Berita</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="{{ url('/service-single') }}">Service single</a></li>
-                                <li><a href="{{ url('/team') }}">Team</a></li>
-                                <li><a href="{{ url('/time-line') }}">Time line</a></li>
-                                <li><a href="{{ url('/faq') }}">FAQ</a></li>
-                                <li><a href="{{ url('/clients') }}">Clients</a></li>
-                                <li><a href="{{ url('/careers') }}">Careers</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="#Level3">Testimonials</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="{{ url('/testimonials-s1') }}">Testimonials style 1</a></li>
-                                        <li><a href="{{ url('/testimonials-s2') }}">Testimonials style 2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="{{ url('/blog') }}">Blog</a></li>
-                                <li><a href="{{ url('/blog-right-sidebar') }}">Blog right sidebar</a></li>
-                                <li><a href="{{ url('/blog-left-sidebar') }}">Blog left sidebar</a></li>
-                                <li><a href="{{ url('/blog-single') }}">Blog single</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="{{ url('/contact') }}">Contact</a></li>
+                        <li><a href="{{ url('/kontak') }}">Kontak</a></li>
                     </ul>
                 </div>
 
@@ -176,28 +144,27 @@
             <div class="row">
                 <div class="col col-lg-4 col-md-3 col-xs-6">
                     <div class="widget about-widget">
-                        <h3><a href="#" class="logo">Mega Industry</a></h3>
-                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laborio...</p>
+                        <h3><a href="#" class="logo">Baratala</a></h3>
+                        <p>BARATALA berfokus pada eksplorasi, penambangan, dan pengolahan bijih besi di Tanah Laut, Kalimantan Selatan. </p>
                     </div>
                 </div>
 
                 <div class="col col-lg-2 col-md-3 col-xs-6">
                     <div class="widget site-map-widget">
-                        <h3>Navigation</h3>
+                        <h3>Halaman</h3>
                         <ul>
-                            <li><a href="{{ url('/') }}">Home</a></li>
-                            <li><a href="{{ url('/about') }}">About</a></li>
-                            <li><a href="{{ url('/service') }}">Service</a></li>
-                            <li><a href="{{ url('/projects') }}">Projects</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="{{ url('/contact') }}">Contact</a></li>
+                            <li><a href="{{ url('/') }}">Beranda</a></li>
+                            <li><a href="{{ url('/about') }}">Tentang</a></li>
+                            <li><a href="{{ url('/service') }}">Galeri</a></li>
+                            <li><a href="{{ url('/projects') }}">Berita</a></li>
+                            <li><a href="{{ url('/contact') }}">Kontak</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col col-lg-3 col-md-3 col-xs-6">
                     <div class="widget news-widget">
-                        <h3>Recent news</h3>
+                        <h3>Berita Terbaru</h3>
                         <ul>
                             <li>
                                 <div class="entry-media">

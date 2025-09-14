@@ -624,8 +624,7 @@
         = GOOGLE MAP
     -------------------------------------------*/  
     function map() {
-
-        var myLatLng = new google.maps.LatLng(36.169941,-115.139830);
+        var myLatLng = new google.maps.LatLng(-3.88333000 ,114.86667000);
         var mapProp = {
             center: myLatLng,
             zoom: 11,
