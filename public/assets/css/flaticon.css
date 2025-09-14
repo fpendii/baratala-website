@@ -1,12 +1,13 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 09/07/2017 05:45
+  	Creation date: 19/11/2019 08:44
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("../fonts/Flaticon.eot");
-  src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
        url("../fonts/Flaticon.woff") format("woff"),
        url("../fonts/Flaticon.ttf") format("truetype"),
        url("../fonts/Flaticon.svg#Flaticon") format("svg");
@@ -24,16 +25,10 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 20px;
 font-style: normal;
-margin-left: 20px;
+margin-left: 0px;
 }
 
-.flaticon-megaphone:before { content: "\f100"; }
-.flaticon-file-1:before { content: "\f101"; }
-.flaticon-file:before { content: "\f102"; }
-.flaticon-rgb:before { content: "\f103"; }
-.flaticon-strategy:before { content: "\f104"; }
-.flaticon-interface:before { content: "\f105"; }
-.flaticon-construction:before { content: "\f106"; }
-.flaticon-construction-1:before { content: "\f107"; }
+.flaticon-sketch:before { content: "\f100"; }
+.flaticon-helmet:before { content: "\f101"; }
+.flaticon-support:before { content: "\f102"; }

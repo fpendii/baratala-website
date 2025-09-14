@@ -1,177 +1,166 @@
 @extends('layouts.user')
 @section('content')
 
-    <!-- start page-title-wrapper -->
-    <div class="page-title">
+  <!-- bradcam_area -->
+  <div class="bradcam_area bradcam_bg_2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="bradcam_text text-center">
+            <h3>Galeri</h3>
+            <p><a href="{{ url('/') }}">Home</a> / Galeri</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /bradcam_area -->
+
+    <!-- gallery_area-START -->
+    <div class="gallery_area">
         <div class="container">
-            <h1>Galeri</h1>
+            <div class="gallery_nav">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-6">
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="row grid no-gutters">
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat3">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <img src="{{ asset('assets/img/gallery/1.png') }}" alt="Crushing & Screening">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Crushing & Screening</h3>
+                                <div class="icon">
+                                    <a href="{{ url('/project-details') }}"><i class="ti-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat3">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <img src="{{ asset('assets/img/gallery/2.png') }}" alt="Stockpile Management">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Stockpile Management</h3>
+                                <div class="icon">
+                                    <a href="{{ url('/project-details') }}"><i class="ti-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat2">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <img src="{{ asset('assets/img/gallery/3.png') }}" alt="Pit Operation">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Pit Operation</h3>
+                                <div class="icon">
+                                    <a href="{{ url('/project-details') }}"><i class="ti-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1 cat3">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <img src="{{ asset('assets/img/gallery/4.png') }}" alt="Sampling & QC">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Sampling & QC</h3>
+                                <div class="icon">
+                                    <a href="{{ url('/project-details') }}"><i class="ti-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat2 cat3">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <img src="{{ asset('assets/img/gallery/5.png') }}" alt="Hauling">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Hauling</h3>
+                                <div class="icon">
+                                    <a href="{{ url('/project-details') }}"><i class="ti-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1 cat2">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <img src="{{ asset('assets/img/gallery/6.png') }}" alt="Drill & Blast">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Drill & Blast</h3>
+                                <div class="icon">
+                                    <a href="{{ url('/project-details') }}"><i class="ti-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <img src="{{ asset('assets/img/gallery/7.png') }}" alt="Geologi & Pemetaan">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Geologi & Pemetaan</h3>
+                                <div class="icon">
+                                    <a href="{{ url('/project-details') }}"><i class="ti-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1 cat2 cat3">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <img src="{{ asset('assets/img/gallery/8.png') }}" alt="Pengapalan">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Pengapalan</h3>
+                                <div class="icon">
+                                    <a href="{{ url('/project-details') }}"><i class="ti-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.row -->
         </div>
     </div>
-    <!-- end page-title-wrapper -->
-
-    <section class="section-padding">
-        <div class="container">
-
-            <div class="row">
-
-                {{-- Item 1 --}}
-                <div class="col-sm-6 col-md-4 mb-25">
-                    <div class="gallery-card">
-                        <a href="{{ asset('assets/images/blog-s2/img-2.jpg') }}"
-                           class="fancybox"
-                           data-fancybox="baratala-gallery"
-                           data-caption="Survei Geologi Tanah Laut">
-                            <div class="thumb">
-                                <img src="{{ asset('assets/images/blog-s2/img-1.jpg') }}" alt="Survei Geologi">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <i class="fa fa-search-plus icon" aria-hidden="true"></i>
-                                    <div class="caption">Survei Geologi Tanah Laut</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                {{-- Item 2 --}}
-                <div class="col-sm-6 col-md-4 mb-25">
-                    <div class="gallery-card">
-                        <a href="{{ asset('assets/images/blog-s2/img-2.jpg') }}"
-                           class="fancybox"
-                           data-fancybox="baratala-gallery"
-                           data-caption="Operasi Drill & Blast">
-                            <div class="thumb">
-                                <img src="{{ asset('assets/images/blog-s2/img-1.jpg') }}" alt="Operasi Drill & Blast">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <i class="fa fa-search-plus icon" aria-hidden="true"></i>
-                                    <div class="caption">Operasi Drill &amp; Blast</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                {{-- Item 3 --}}
-                <div class="col-sm-6 col-md-4 mb-25">
-                    <div class="gallery-card">
-                        <a href="{{ asset('assets/images/blog-s2/img-2.jpg') }}"
-                           class="fancybox"
-                           data-fancybox="baratala-gallery"
-                           data-caption="Crushing & Screening 600 TPH">
-                            <div class="thumb">
-                                <img src="{{ asset('assets/images/blog-s2/img-1.jpg') }}" alt="Crushing & Screening">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <i class="fa fa-search-plus icon" aria-hidden="true"></i>
-                                    <div class="caption">Crushing &amp; Screening 600 TPH</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                {{-- Item 4 --}}
-                <div class="col-sm-6 col-md-4 mb-25">
-                    <div class="gallery-card">
-                        <a href="{{ asset('assets/images/blog-s2/img-2.jpg') }}"
-                           class="fancybox"
-                           data-fancybox="baratala-gallery"
-                           data-caption="Quality Control Kadar Fe">
-                            <div class="thumb">
-                                <img src="{{ asset('assets/images/blog-s2/img-1.jpg') }}" alt="Quality Control Kadar Fe">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <i class="fa fa-search-plus icon" aria-hidden="true"></i>
-                                    <div class="caption">Quality Control Kadar Fe</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                {{-- Item 5 --}}
-                <div class="col-sm-6 col-md-4 mb-25">
-                    <div class="gallery-card">
-                        <a href="{{ asset('assets/images/blog-s2/img-2.jpg') }}"
-                           class="fancybox"
-                           data-fancybox="baratala-gallery"
-                           data-caption="Hauling ke Pelabuhan">
-                            <div class="thumb">
-                                <img src="{{ asset('assets/images/blog-s2/img-1.jpg') }}" alt="Hauling ke Pelabuhan">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <i class="fa fa-search-plus icon" aria-hidden="true"></i>
-                                    <div class="caption">Hauling ke Pelabuhan</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                {{-- Item 6 --}}
-                <div class="col-sm-6 col-md-4 mb-25">
-                    <div class="gallery-card">
-                        <a href="{{ asset('assets/images/blog-s2/img-2.jpg') }}"
-                           class="fancybox"
-                           data-fancybox="baratala-gallery"
-                           data-caption="Loading ke Tongkang">
-                            <div class="thumb">
-                                <img src="{{ asset('assets/images/blog-s2/img-1.jpg') }}" alt="Loading ke Tongkang">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <i class="fa fa-search-plus icon" aria-hidden="true"></i>
-                                    <div class="caption">Loading ke Tongkang</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-            {{-- Pagination (opsional) --}}
-            <div class="pagination">
-                <ul>
-                    <li class="current"><a href="{{ url('/gallery?page=1') }}">1</a></li>
-                    <li><a href="{{ url('/gallery?page=2') }}">2</a></li>
-                    <li><a href="{{ url('/gallery?page=3') }}">3</a></li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-
-    {{-- Style khusus galeri --}}
-    <style>
-        .mb-25{margin-bottom:25px;}
-        .gallery-card{position:relative;overflow:hidden;border-radius:8px;background:#000;}
-        .gallery-card .thumb{aspect-ratio:16/9;width:100%;overflow:hidden;background:#000;}
-        .gallery-card .thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease, opacity .5s ease;}
-
-        /* Fallback jika browser belum dukung aspect-ratio */
-        @supports not (aspect-ratio: 1) {
-            .gallery-card .thumb{position:relative;}
-            .gallery-card .thumb::before{content:"";display:block;padding-bottom:56.25%;} /* 16:9 */
-            .gallery-card .thumb img{position:absolute;inset:0;}
-        }
-
-        .gallery-card .overlay{
-            position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
-            text-align:center;background:rgba(0,0,0,.55);opacity:0;transition:opacity .3s ease;
-            padding:14px;
-        }
-        .gallery-card .overlay-content{color:#fff;}
-        .gallery-card .overlay .icon{font-size:22px;display:block;margin-bottom:6px;}
-        .gallery-card .overlay .caption{font-size:15px;line-height:1.4;}
-        .gallery-card:hover .thumb img{transform:scale(1.06);}
-        .gallery-card:hover .overlay{opacity:1;}
-    </style>
+    <!-- gallery_area-END -->
 
 @endsection

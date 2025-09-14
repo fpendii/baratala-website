@@ -1,253 +1,289 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
 <head>
-    <!-- Meta Tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="themexriver">
-
-    <!-- Page Title -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Baratala</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Favicon and Touch Icons -->
-    <link href="{{ asset('assets/images/favicon/favicon.png') }}" rel="shortcut icon" type="image/png">
-    <link href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}" rel="apple-touch-icon">
-    <link href="{{ asset('assets/images/favicon/apple-touch-icon-72x72.png') }}" rel="apple-touch-icon" sizes="72x72">
-    <link href="{{ asset('assets/images/favicon/apple-touch-icon-114x114.png') }}" rel="apple-touch-icon" sizes="114x114">
-    <link href="{{ asset('assets/images/favicon/apple-touch-icon-144x144.png') }}" rel="apple-touch-icon" sizes="144x144">
+    {{-- Favicon --}}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon.png') }}">
 
-    <!-- Icon fonts -->
-    <link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/flaticon.css') }}" rel="stylesheet">
-
-    <!-- Bootstrap core CSS -->
-    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
-
-    <!-- Plugins for this template -->
-    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/owl.carousel.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/owl.theme.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/slick.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/slick-theme.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/owl.transitions.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/jquery.fancybox.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/bootstrap-select.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/magnific-popup.css') }}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    {{-- CSS --}}
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/gijgo.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/slicknav.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body>
-<div class="page-wrapper">
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 
-    <!-- start preloader -->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <span></span><span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span>
-        </div>
-    </div>
-    <!-- end preloader -->
-
-    <!-- Start header -->
-    <header class="site-header header-style-1">
-        <div class="topbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-sm-6 contact-info">
-                        <ul>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> baratala@gmai.com</li>
-                            <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +62 852 5180 1111</li>
-                        </ul>
-                    </div>
-                    <div class="col col-sm-6 language-login-wrapper">
-                        <div class="language-login clearfix">
-                            <div class="language">
-                                <i class="fa fa-globe" aria-hidden="true"></i> Lang:
-                                <form>
-                                    <select class="selectpicker">
-                                        <option>ENG</option>
-                                        <option>IND</option>
-                                    </select>
-                                </form>
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div class="header-top_area d-none d-lg-block">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-5 col-md-5 ">
+                            <div class="header_left">
+                                <p>Opening Hour: (10.00-07.00)</p>
                             </div>
-                            <div class="client-login">
-                                <a href="#" id="client-login-btn"><i class="fa fa-key" aria-hidden="true"></i> Login</a>
+                        </div>
+                        <div class="col-xl-7 col-md-7">
+                            <div class="header_right d-flex justify-content-end">
+                                <a href="#" class="boxed-btn3">Get a Quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="address_bar d-none d-lg-block">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-xl-3 col-lg-3">
+                            <div class="logo">
+                                <a href="{{ url('/') }}">
+                                    <img src="{{ asset('assets/img/logo.png') }}" alt="Baratala">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="address_menu d-flex justify-content-end">
+                                <div class="single_address d-flex">
+                                    <div class="icon">
+                                        <img src="{{ asset('assets/img/icon/header-address.svg') }}" alt="">
+                                    </div>
+                                    <div class="address_info">
+                                        <h3>Address</h3>
+                                        <p>Tanah Laut, Kalimantan Selatan</p>
+                                    </div>
+                                </div>
+                                <div class="single_address d-flex">
+                                    <div class="icon">
+                                        <img src="{{ asset('assets/img/icon/headset.svg') }}" alt="">
+                                    </div>
+                                    <div class="address_info">
+                                        <h3>Call Us</h3>
+                                        <p>+62 8xx-xxxx-xxxx</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="white_bg_bar">
+                        <div class="row align-items-center">
+                            <div class="col-12 d-lg-none">
+                                <div class="logo ">
+                                    <a href="{{ url('/') }}">
+                                        <img src="{{ asset('assets/img/logo.png') }}" alt="Baratala">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-lg-8">
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a class="active" href="{{ url('/') }}">Beranda</a></li>
+                                            <li><a href="{{ url('/tentang') }}">Tentang</a></li>
+                                            <li><a href="#">Kegiatan <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="{{ url('/galeri') }}">Galeri</a></li>
+                                                    <li><a href="{{ url('/berita') }}">Beritab</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="{{ url('/kontak') }}">Kontak</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 d-none d-lg-block">
+                                <div class="Appointment d-flex justify-content-end">
+                                    <div class="search_icon">
+                                        <a data-toggle="modal" data-target="#exampleModalCenter" href="#">
+                                            <i class="ti-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
 
-        <nav class="navigation navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="open-btn">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" style="width: 70px; height: auto;">
-                    </a>
-                </div>
-                <div class="navbar-header">
-                    <h1 class="text-white" style="color:#fff">BARATALA</h1>
-                </div>
-                
-
-                <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
-                    <button class="close-navbar"><i class="fa fa-close"></i></button>
-                    <ul class="nav navbar-nav">
-                        <li><a href="{{ url('/') }}">Beranda</a></li>
-                        <li><a href="{{ url('/tentang') }}">Tentang</a></li>
-                        <li class="menu-item-has-children">
-                            <a href="">Kegiatan</a>
-                            <ul class="sub-menu">
-                                <li><a href="{{ url('/galeri') }}">Galeri</a></li>
-                                <li><a href="{{ url('/berita') }}">Berita</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="{{ url('/kontak') }}">Kontak</a></li>
-                    </ul>
-                </div>
-
-                <div class="social-links-holder">
-                    <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                    </ul>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
-    <!-- end of header -->
+    <!-- header-end -->
 
     @yield('content')
 
-    <!-- start footer-->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col col-lg-4 col-md-3 col-xs-6">
-                    <div class="widget about-widget">
-                        <h3><a href="#" class="logo">Baratala</a></h3>
-                        <p>BARATALA berfokus pada eksplorasi, penambangan, dan pengolahan bijih besi di Tanah Laut, Kalimantan Selatan. </p>
-                    </div>
-                </div>
-
-                <div class="col col-lg-2 col-md-3 col-xs-6">
-                    <div class="widget site-map-widget">
-                        <h3>Halaman</h3>
-                        <ul>
-                            <li><a href="{{ url('/') }}">Beranda</a></li>
-                            <li><a href="{{ url('/about') }}">Tentang</a></li>
-                            <li><a href="{{ url('/service') }}">Galeri</a></li>
-                            <li><a href="{{ url('/projects') }}">Berita</a></li>
-                            <li><a href="{{ url('/contact') }}">Kontak</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col col-lg-3 col-md-3 col-xs-6">
-                    <div class="widget news-widget">
-                        <h3>Berita Terbaru</h3>
-                        <ul>
-                            <li>
-                                <div class="entry-media">
-                                    <img src="{{ asset('assets/images/blog/thumb/img-1.jpg') }}" alt="">
-                                </div>
-                                <div class="entry-details">
-                                    <h5><a href="#">New ch017y concrete mixer is bought</a></h5>
-                                    <span class="date">19 FEB</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="entry-media">
-                                    <img src="{{ asset('assets/images/blog/thumb/img-1.jpg') }}" alt="">
-                                </div>
-                                <div class="entry-details">
-                                    <h5><a href="#">New ch017y concrete mixer is bought</a></h5>
-                                    <span class="date">16 FEB</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col col-lg-3 col-md-3 col-xs-6">
-                    <div class="widget newsletter-widget">
-                        <h3>Subscription</h3>
-                        <p>Enter your email address to subscribe our weekly newsletter</p>
-                        <form class="form">
-                            <div>
-                                <input type="text" class="form-control" placeholder="email address">
-                                <button class="btn" type="submit"><i class="fa fa-send"></i></button>
+    <!-- footer_start  -->
+    <footer class="footer">
+        <div class="download_brochure">
+            <div class="container">
+                <div class="bordered_1px">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="footer_logo">
+                                <a href="{{ url('/') }}">
+                                    <img src="{{ asset('assets/img/footer_logo.png') }}" alt="Baratala">
+                                </a>
                             </div>
-                        </form>
-                    </div>
-
-                    <div class="widget social-media-widget">
-                        <ul class="social-links">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="download_btn">
+                                <a href="#"> <img src="{{ asset('assets/img/icon/down.svg') }}" alt=""> Download Brochure</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
-    </footer>
-    <!-- end footer-->
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">About</h3>
+                            <p>Tanah Laut, Kalimantan Selatan <br>
+                                <a href="#">+62 8xx-xxxx-xxxx</a> <br>
+                                <a href="#">info@baratala.co.id</a>
+                            </p>
+                            <div class="socail_links">
+                                <ul>
+                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                </ul>
+                            </div>
 
-    <div class="client-login-area">
-        <div class="client-login-form">
-            <h3>Client Login area</h3>
-            <form class="form">
-                <div>
-                    <label for="username">Username</label>
-                    <input type="text" id="username" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">Popular Searches</h3>
+                            <ul>
+                                <li><a href="#">Apartment for rent</a></li>
+                                <li><a href="#">Office for rent</a></li>
+                                <li><a href="#">Apartment for sale</a></li>
+                                <li><a href="#">Luxuries</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2 offset-xl-1 offset-lg-1">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">Useful Links</h3>
+                            <ul>
+                                <li><a href="{{ url('/about') }}">About</a></li>
+                                <li><a href="{{ url('/blog') }}">Blog</a></li>
+                                <li><a href="{{ url('/contact') }}">Contact</a></li>
+                                <li><a href="{{ url('/appointment') }}">Appointment</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">Subscribe</h3>
+                            <form action="#" class="newsletter_form">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit">Subscribe</button>
+                            </form>
+                            <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label for="password">Password</label>
-                    <input type="password" id="password" class="form-control">
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                            All rights reserved | This template is made with
+                            <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                            <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <button type="submit">Login</button>
-                </div>
-            </form>
+            </div>
+        </div>
+    </footer>
+    <!-- footer_end  -->
+
+    {{-- JS --}}
+    <script src="{{ asset('assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/ajax-form.js') }}"></script>
+    <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/scrollIt.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/gijgo.min.js') }}"></script>
+    <script src="{{ asset('assets/js/nice-select.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.slicknav.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins.js') }}"></script>
+
+    {{-- contact js --}}
+    <script src="{{ asset('assets/js/contact.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.form.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.validate.min.js') }}"></script>
+    <script src="{{ asset('assets/js/mail-script.js') }}"></script>
+
+    <script src="{{ asset('assets/js/main.js') }}"></script>
+
+    {{-- Modal Search --}}
+    <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="serch_form">
+                <input type="text" placeholder="search">
+                <button type="submit">search</button>
+            </div>
+          </div>
         </div>
     </div>
-</div>
 
-<!-- All JavaScript files -->
-<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-
-<!-- Plugins for this template -->
-<script src="{{ asset('assets/js/jquery-plugin-collection.js') }}"></script>
-<script src="{{ asset('assets/js/portfolio.js') }}"></script>
-
-<!-- Google map api (biarkan external atau masukkan API key-mu) -->
-<script src="https://maps.googleapis.com/maps/api/js?key"></script>
-
-<!-- Custom script for this template -->
-<script src="{{ asset('assets/js/script.js') }}"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: { rightIcon: '<span class="fa fa-calendar-o"></span>' }
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: { rightIcon: '<span class="fa fa-calendar-o"></span>' }
+        });
+    </script>
 </body>
 </html>
