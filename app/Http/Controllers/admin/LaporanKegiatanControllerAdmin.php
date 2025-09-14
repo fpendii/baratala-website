@@ -11,4 +11,9 @@ class LaporanKegiatanControllerAdmin extends Controller
     {
         return view('admin.laporan_kegiatan.index');
     }
+
+    public function create()
+    {
+        return view('admin.laporan_kegiatan.create');
+    }
 }

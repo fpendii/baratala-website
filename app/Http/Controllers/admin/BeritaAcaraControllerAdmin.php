@@ -11,4 +11,9 @@ class BeritaAcaraControllerAdmin extends Controller
     {
         return view('admin.berita_acara.index');
     }
+
+    public function create()
+    {
+        return view('admin.berita_acara.create');
+    }
 }

@@ -11,4 +11,9 @@ class SuratMasukControllerAdmin extends Controller
     {
         return view('admin.surat_masuk.index');
     }
+
+    public function create()
+    {
+        return view('admin.surat_masuk.create');
+    }
 }

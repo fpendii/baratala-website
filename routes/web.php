@@ -8,11 +8,14 @@ use App\Http\Controllers\admin\BeritaAcaraController;
 use App\Http\Controllers\admin\BeritaAcaraControllerAdmin;
 use App\Http\Controllers\admin\LaporanKegiatanControllerAdmin;
 use App\Http\Controllers\admin\LaporanKeuanganControllerAdmin;
+use App\Http\Controllers\admin\PenggunaControllerAdmin;
 use App\Http\Controllers\admin\ProfilPerusahaanController;
 use App\Http\Controllers\admin\ProfilPerusahaanControllerAdmin;
 use App\Http\Controllers\admin\SuratMasukControllerAdmin;
 use App\Http\Controllers\admin\UangMasukController;
 use App\Http\Controllers\admin\UangKeluarController;
+use App\Http\Controllers\admin\UangKeluarControllerAdmin;
+use App\Http\Controllers\admin\UangMasukControllerAdmin;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -31,8 +34,9 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::resource('laporan-kegiatan', LaporanKegiatanControllerAdmin::class);
     Route::resource('berita-acara', BeritaAcaraControllerAdmin::class);
     Route::resource('profil-perusahaan', ProfilPerusahaanControllerAdmin::class);
-    Route::resource('uang-masuk', UangMasukController::class);
-    Route::resource('uang-keluar', UangKeluarController::class);
+    Route::resource('uang-masuk', UangMasukControllerAdmin::class);
+    Route::resource('uang-keluar', UangKeluarControllerAdmin::class);
+    Route::resource('pengguna', PenggunaControllerAdmin::class);
 
     // Rute untuk ekspor laporan
     Route::get('laporan-keuangan/export/pdf', [LaporanKeuanganController::class, 'exportPdf'])->name('laporan-keuangan.export.pdf');

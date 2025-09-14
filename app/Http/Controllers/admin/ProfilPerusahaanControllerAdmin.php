@@ -11,4 +11,8 @@ class ProfilPerusahaanControllerAdmin extends Controller
     {
         return view('admin.profil_perusahaan.index');
     }
+
+    public function edit(){
+        return view('admin.profil_perusahaan.edit');
+    }
 }
