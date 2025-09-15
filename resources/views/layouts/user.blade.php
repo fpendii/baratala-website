@@ -1,253 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Meta Tags -->
+  <head>
+    <title>Industrial — Website Template by Colorlin</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="themexriver">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Page Title -->
-    <title>Baratala</title>
+    {{-- Google Fonts (biarkan eksternal) --}}
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
 
-    <!-- Favicon and Touch Icons -->
-    <link href="{{ asset('assets/images/favicon/favicon.png') }}" rel="shortcut icon" type="image/png">
-    <link href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}" rel="apple-touch-icon">
-    <link href="{{ asset('assets/images/favicon/apple-touch-icon-72x72.png') }}" rel="apple-touch-icon" sizes="72x72">
-    <link href="{{ asset('assets/images/favicon/apple-touch-icon-114x114.png') }}" rel="apple-touch-icon" sizes="114x114">
-    <link href="{{ asset('assets/images/favicon/apple-touch-icon-144x144.png') }}" rel="apple-touch-icon" sizes="144x144">
+    {{-- CSS (lokal di assets) --}}
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/jquery.fancybox.min.css') }}">
 
-    <!-- Icon fonts -->
-    <link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/flaticon.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/fonts/ionicons/css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/css/font-awesome.min.css') }}">
 
-    <!-- Bootstrap core CSS -->
-    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+  </head>
+  <body>
 
-    <!-- Plugins for this template -->
-    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/owl.carousel.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/owl.theme.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/slick.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/slick-theme.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/owl.transitions.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/jquery.fancybox.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/bootstrap-select.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/magnific-popup.css') }}" rel="stylesheet">
+    <header role="banner">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="{{ url('/') }}">Industrial</a>
 
-    <!-- Custom styles for this template -->
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <!-- HTML5 shim and Respond.js for IE8 support -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-<div class="page-wrapper">
-
-    <!-- start preloader -->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <span></span><span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span>
-        </div>
-    </div>
-    <!-- end preloader -->
-
-    <!-- Start header -->
-    <header class="site-header header-style-1">
-        <div class="topbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-sm-6 contact-info">
-                        <ul>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> baratala@gmai.com</li>
-                            <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +62 852 5180 1111</li>
-                        </ul>
-                    </div>
-                    <div class="col col-sm-6 language-login-wrapper">
-                        <div class="language-login clearfix">
-                            <div class="language">
-                                <i class="fa fa-globe" aria-hidden="true"></i> Lang:
-                                <form>
-                                    <select class="selectpicker">
-                                        <option>ENG</option>
-                                        <option>IND</option>
-                                    </select>
-                                </form>
-                            </div>
-                            <div class="client-login">
-                                <a href="#" id="client-login-btn"><i class="fa fa-key" aria-hidden="true"></i> Login</a>
-                            </div>
-                        </div>
-                    </div>
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav pl-md-5 ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="{{ url('/') }}">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url('/tentang') }}">Tentang</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ url('/') }}" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kegiatan</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item" href="{{ url('/berita') }}">Berita</a>
+                  <a class="dropdown-item" href="{{ url('/galeri') }}">Galeri</a>
                 </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url('/kontak') }}">Kontak</a>
+              </li>
+            </ul>
+
+            <div class="navbar-nav ml-auto">
+              <form method="GET" action="{{ url('/search') }}" class="search-form">
+                <span class="icon ion ion-search"></span>
+                <input type="text" name="q" class="form-control" placeholder="Search...">
+              </form>
             </div>
+          </div>
         </div>
-
-        <nav class="navigation navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="open-btn">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" style="width: 70px; height: auto;">
-                    </a>
-                </div>
-                <div class="navbar-header">
-                    <h1 class="text-white" style="color:#fff">BARATALA</h1>
-                </div>
-                
-
-                <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
-                    <button class="close-navbar"><i class="fa fa-close"></i></button>
-                    <ul class="nav navbar-nav">
-                        <li><a href="{{ url('/') }}">Beranda</a></li>
-                        <li><a href="{{ url('/tentang') }}">Tentang</a></li>
-                        <li class="menu-item-has-children">
-                            <a href="">Kegiatan</a>
-                            <ul class="sub-menu">
-                                <li><a href="{{ url('/galeri') }}">Galeri</a></li>
-                                <li><a href="{{ url('/berita') }}">Berita</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="{{ url('/kontak') }}">Kontak</a></li>
-                    </ul>
-                </div>
-
-                <div class="social-links-holder">
-                    <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      </nav>
     </header>
-    <!-- end of header -->
+    <!-- END header -->
+
+     <div class="top-shadow"></div>
+
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url('assets/images/industrial_hero_1.jpg');">
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-lg-7 text-center col-sm-12 element-animate">
+              <div class="btn-play-wrap mx-auto"><p class="mb-4"><a href="https://vimeo.com/59256790" data-fancybox data-ratio="2" class="btn-play"><span class="ion ion-ios-play"></span></a></p></div>
+              <h1 class="mb-4"><span>We Are Industrial Company</span></h1>
+              <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url('assets/images/industrial_hero_2.jpg');">
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-lg-7 text-center col-sm-12 element-animate">
+              <div class="btn-play-wrap mx-auto"><p class="mb-4"><a href="https://vimeo.com/59256790" data-fancybox data-ratio="2" class="btn-play"><span class="ion ion-ios-play"></span></a></p></div>
+              <h1><span>The Best Level of Excellence in Steel Fabrication</span></h1>
+              <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fuga, hic quae molestias aperiam deserunt!</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </section>
+    <!-- END slider -->
+    </div>
+    
+
 
     @yield('content')
 
-    <!-- start footer-->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col col-lg-4 col-md-3 col-xs-6">
-                    <div class="widget about-widget">
-                        <h3><a href="#" class="logo">Baratala</a></h3>
-                        <p>BARATALA berfokus pada eksplorasi, penambangan, dan pengolahan bijih besi di Tanah Laut, Kalimantan Selatan. </p>
-                    </div>
-                </div>
+ <footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="row mb-5">
+      {{-- Tentang BARATALA --}}
+      <div class="col-md-4 mb-5">
+        <h3>Tentang BARATALA</h3>
+        <p class="mb-4">
+          BARATALA adalah perusahaan pertambangan bijih besi berbasis di Tanah Laut, Kalimantan Selatan.
+          Kami menjalankan operasi terintegrasi mulai dari eksplorasi, penambangan, crushing &amp; screening,
+          hingga logistik dan pengapalan dengan standar K3L dan kontrol kualitas kadar Fe yang ketat.
+        </p>
+        <ul class="list-unstyled footer-link d-flex footer-social">
+          <li><a href="{{ url('#') }}" class="p-2" aria-label="Twitter"><span class="fa fa-twitter"></span></a></li>
+          <li><a href="{{ url('#') }}" class="p-2" aria-label="Facebook"><span class="fa fa-facebook"></span></a></li>
+          <li><a href="{{ url('#') }}" class="p-2" aria-label="LinkedIn"><span class="fa fa-linkedin"></span></a></li>
+          <li><a href="{{ url('#') }}" class="p-2" aria-label="Instagram"><span class="fa fa-instagram"></span></a></li>
+        </ul>
+      </div>
 
-                <div class="col col-lg-2 col-md-3 col-xs-6">
-                    <div class="widget site-map-widget">
-                        <h3>Halaman</h3>
-                        <ul>
-                            <li><a href="{{ url('/') }}">Beranda</a></li>
-                            <li><a href="{{ url('/about') }}">Tentang</a></li>
-                            <li><a href="{{ url('/service') }}">Galeri</a></li>
-                            <li><a href="{{ url('/projects') }}">Berita</a></li>
-                            <li><a href="{{ url('/contact') }}">Kontak</a></li>
-                        </ul>
-                    </div>
-                </div>
+      {{-- Info Kontak --}}
+      <div class="col-md-4 mb-5 pl-md-5">
+        <h3>Info Kontak</h3>
+        <ul class="list-unstyled footer-link">
+          <li class="d-block">
+            <span class="d-block">Alamat:</span>
+            <span>Tanah Laut, Kalimantan Selatan, Indonesia</span>
+          </li>
+          <li class="d-block">
+            <span class="d-block">Telepon:</span>
+            <span><a href="tel:+628110000000">+62 811-0000-000</a></span>
+          </li>
+          <li class="d-block">
+            <span class="d-block">Email:</span>
+            <span><a href="mailto:sales@baratala.co.id">sales@baratala.co.id</a></span>
+          </li>
+        </ul>
+      </div>
 
-                <div class="col col-lg-3 col-md-3 col-xs-6">
-                    <div class="widget news-widget">
-                        <h3>Berita Terbaru</h3>
-                        <ul>
-                            <li>
-                                <div class="entry-media">
-                                    <img src="{{ asset('assets/images/blog/thumb/img-1.jpg') }}" alt="">
-                                </div>
-                                <div class="entry-details">
-                                    <h5><a href="#">New ch017y concrete mixer is bought</a></h5>
-                                    <span class="date">19 FEB</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="entry-media">
-                                    <img src="{{ asset('assets/images/blog/thumb/img-1.jpg') }}" alt="">
-                                </div>
-                                <div class="entry-details">
-                                    <h5><a href="#">New ch017y concrete mixer is bought</a></h5>
-                                    <span class="date">16 FEB</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col col-lg-3 col-md-3 col-xs-6">
-                    <div class="widget newsletter-widget">
-                        <h3>Subscription</h3>
-                        <p>Enter your email address to subscribe our weekly newsletter</p>
-                        <form class="form">
-                            <div>
-                                <input type="text" class="form-control" placeholder="email address">
-                                <button class="btn" type="submit"><i class="fa fa-send"></i></button>
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="widget social-media-widget">
-                        <ul class="social-links">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </footer>
-    <!-- end footer-->
-
-    <div class="client-login-area">
-        <div class="client-login-form">
-            <h3>Client Login area</h3>
-            <form class="form">
-                <div>
-                    <label for="username">Username</label>
-                    <input type="text" id="username" class="form-control">
-                </div>
-                <div>
-                    <label for="password">Password</label>
-                    <input type="password" id="password" class="form-control">
-                </div>
-                <div>
-                    <button type="submit">Login</button>
-                </div>
-            </form>
-        </div>
+      {{-- Tautan Cepat --}}
+      <div class="col-md-4 mb-5">
+        <h3>Tautan Cepat</h3>
+        <ul class="list-unstyled footer-link">
+          <li><a href="{{ url('/') }}">Beranda</a></li>
+          <li><a href="{{ url('/tentang') }}">Tentang</a></li>
+          <li><a href="{{ url('/berita') }}">Berita</a></li>
+          <li><a href="{{ url('/galeri') }}">Galeri</a></li>
+          <li><a href="{{ url('/kontak') }}">Kontak</a></li>
+        </ul>
+      </div>
     </div>
-</div>
 
-<!-- All JavaScript files -->
-<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <div class="row">
+      <div class="col-12 text-md-center text-left">
+        <p class="copyright mb-0">
+          &copy;<script>document.write(new Date().getFullYear());</script> BARATALA. All rights reserved.
+          <span class="d-block d-md-inline">Template base by <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a></span>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
 
-<!-- Plugins for this template -->
-<script src="{{ asset('assets/js/jquery-plugin-collection.js') }}"></script>
-<script src="{{ asset('assets/js/portfolio.js') }}"></script>
+    <!-- END footer -->
 
-<!-- Google map api (biarkan external atau masukkan API key-mu) -->
-<script src="https://maps.googleapis.com/maps/api/js?key"></script>
+    <!-- loader -->
+    <div id="loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/>
+      </svg>
+    </div>
 
-<!-- Custom script for this template -->
-<script src="{{ asset('assets/js/script.js') }}"></script>
-</body>
+    {{-- JS (lokal di assets) --}}
+    <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.fancybox.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
+  </body>
 </html>
