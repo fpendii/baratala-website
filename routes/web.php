@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\admin\DashboardControllerAdmin;
+
 use App\Http\Controllers\admin\LaporanKeuanganController;
 use App\Http\Controllers\admin\SuratMasukController;
 use App\Http\Controllers\admin\LaporanKegiatanController;
@@ -16,11 +17,14 @@ use App\Http\Controllers\admin\UangMasukController;
 use App\Http\Controllers\admin\UangKeluarController;
 use App\Http\Controllers\admin\UangKeluarControllerAdmin;
 use App\Http\Controllers\admin\UangMasukControllerAdmin;
+
+use App\Http\Controllers\user\DashboardControllerUser;
+
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // Route::get('logout', BeritaAcaraControllerAdmin::class);
 
@@ -42,3 +46,5 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('laporan-keuangan/export/pdf', [LaporanKeuanganController::class, 'exportPdf'])->name('laporan-keuangan.export.pdf');
     Route::get('laporan-keuangan/export/excel', [LaporanKeuanganController::class, 'exportExcel'])->name('laporan-keuangan.export.excel');
 });
+
+Route::get('/', [DashboardControllerUser::class, 'index']);
